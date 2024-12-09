@@ -5,7 +5,7 @@ import IconMail from '../../components/Icon/IconMail';
 import IconLockDots from '../../components/Icon/IconLockDots';
 import { Button } from "@nextui-org/react";
 import Google_svg from '/assets/images/google.svg';
-import { api_calling, google_login } from "@/utils/api"
+import { api_calling, google_login } from "../../utils/api"
 const LoginBoxed = () => {
 
     const [isLoading, setIsLoading] = React.useState<boolean>(false)
